@@ -1,0 +1,19 @@
+{
+  "name": "matter-supply-code-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm --prefix ./server run start & npm --prefix ./client run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryk2/matter-supply-code-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryk2/matter-supply-code-challenge/issues"
+  },
+  "homepage": "https://github.com/aryk2/matter-supply-code-challenge#readme"
+}
