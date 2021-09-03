@@ -10,10 +10,10 @@ export const getAllBlogPosts = async (
     try {
       const octokit = getOctokit()
 
-      console.info('Fetching All Gists')
+      console.info('Fetching All Gists for user', req.body?.data?.username??'')
 
       const gistResult = await octokit.request('GET /users/{username}/gists', {
-        username: 'aryk2'
+        username: req.body?.data?.username??''
       })
       res.status(200).send({
         success: true,

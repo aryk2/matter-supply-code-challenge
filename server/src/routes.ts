@@ -5,7 +5,7 @@ export const routes = (router: Router) => {
 
     router
         .route(`/get-posts`)
-        .get(
+        .post(
         //   decodeToken,
         //   isAuthorized,
             getAllBlogPosts
